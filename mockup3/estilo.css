@@ -19,10 +19,10 @@ nav#nav1{
     
 }
 nav#nav1 img{
-    width:11.71875%;
+    width:11.71875%;/*150 de 1280*/
     height: auto;
     display:inline-block;
-    margin-left: 3.125%;
+    margin-left: 3.125%;/*40 de 1280*/
     max-height: 150px;
     max-width: 150px;
    
@@ -31,8 +31,8 @@ nav#nav1 h1{
     display:block;
     float:right;
     margin-top: 30px;
-    margin-right: 34.375%;
-    width: 31.25%;
+    margin-right: 34.375%;/*440 de 1280*/
+    width: 31.25%;/*400 de 1280*/
     font-size:4em;
 }
 nav#nav2{
@@ -41,10 +41,10 @@ nav#nav2{
 /*************Aside***************/
 aside{
     background-color: coral;
-    width: 10.9375%;
+    width: 10.9375%;/*140 de 1280*/
     display:block;
     float:left;
-    padding: 0.78125%;
+    padding: 0.78125%;/*10 de 1280*/
     min-height: 700px;
 }
 aside ol{
@@ -58,9 +58,9 @@ aside ol li#principal{
     font-size:0.75em;
 }
 aside ol li{
-    margin: 0 3.571428571428571% 0 3.571428571428571%;
-    width:85.71428571428571%;
-    padding: 3.571428571428571%;
+    margin: 0 3.571428571428571% 0 3.571428571428571%;/*5 de 140*/
+    width:85.71428571428571%;/*120 de 140*/
+    padding: 3.571428571428571%;/*5 de 140*/
 }
 aside ol li.resaltado:hover{
     background-color: brown;
@@ -69,47 +69,47 @@ aside ol li.resaltado:hover{
 /**********Div de la parte util***********/
 div#util{
     background-color:bisque;
-    width: 87.5%;
+    width: 87.5%;/*Ocupa 1120 de 1280*/
     display:block;
     float:left;
     min-height: 700px;
     padding-top: 20px;
 }
 div#util h1{
-    margin-left: 36.60714285714286%;
-    width:26.78571428571429%;
+    margin-left: 36.60714285714286%;/*Ocupa 410 de 1120*/
+    width:26.78571428571429%;/*Ocupa 300 de 1120*/
     font-size:2em;
 }
 div#util div{
     background-color: lightblue;
-    margin-left: 14.28571428571429%;
-    width: 67.85714285714286%;
-    padding: 1.785714285714286%;
+    margin-left: 14.28571428571429%;/*160 de los 1120*/
+    width: 67.85714285714286%;/*760 de los 1120*/
+    padding: 1.785714285714286%;/*20 de los 1120 por cada lado*/
     min-height: 400px;
 }
 div#util div label{
     display:inline-block;
-    width: 13.02083333333333%;
-    margin-right: 1.953125%;
+    width: 13.15789473684211%;/*100 de 760*/
+    margin-right: 1.97368421052632%;/*15 de 760*/
 }
 div#util div textarea{
     border-width:2px;
-    width: 32.03125%;
+    width: 32.36842105263158%;/*246 de 760*/
     margin-top: 40px;
-    margin-right: 3.90625%;
+    margin-right: 3.947368421052632%;/*30 de 760*/
 }
 div#util div input {
-    width: 32.03125%;
+    width: 32.36842105263158%;/*246 de 760*/
     margin-top: 40px;
 }
 div#util div input.izq{
-    margin-right: 3.90625%;
+    margin-right: 3.947368421052632%;/*30 de 760*/
 }
 div#util div input[type=button] {
-    width: 20.3125%;
+    width: 20.52631578947368%;/*156 de 760*/
 }
 div#util div input[type=button].cancelar {
-    margin-right: 5.859375%;
+    margin-right: 5.921052631578947%;/*45 de 760*/
 }
 /*Media 1 900 px de ancho*/
 @media only screen and (max-width: 950px) {
